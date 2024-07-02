@@ -1,4 +1,4 @@
-body{width:100%;height:120vh;margin:0;background-color:#1a2081;font-family: Ggsans, sans-serif;font-size: 16px;font-weight:400;background-image: linear-gradient(135deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, .05)), linear-gradient(261deg, #1a2081, #0e0e5c);}
+body{width:100%;height:130vh;margin:0;background-color:#1a2081;font-family: Ggsans, sans-serif;font-size: 16px;font-weight:400;background-image: linear-gradient(135deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, .05)), linear-gradient(261deg, #1a2081, #0e0e5c);}
 
 h1{font-weight:bolder;}
 
@@ -6,9 +6,9 @@ h1, p{text-align: center;margin:1em auto 20px;}
 
 form{width:70vw;max-width:500px;min-width:300px;margin:0 auto;}
 
-.container{display: block;margin:auto;background-color:#161CBB;border-radius:30px;padding-bottom:2em;box-shadow:0 0 20px 0 black;}
+.container{display: block;margin:auto;background-color:#161CBB;border-radius:30px;padding-bottom:2em;box-shadow:0 0 15px 0 black;}
 
-fieldset{border:none;padding:0.5rem 0;margin:2em;}
+fieldset{border:none;padding:0.5rem 5px;margin:1em;}
 
 fieldset:first-of-type{padding-top:2em;}
 
