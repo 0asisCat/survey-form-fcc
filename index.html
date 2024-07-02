@@ -28,18 +28,18 @@
         </label>
       </fieldset>
       <fieldset>
-        <legend>Would you attend again next convention?</legend>
-            <label><input type="radio" name="radio" value="yes" class="inline" checked>Yes</label>
-            <label><input type="radio" name="radio" value="No" class="inline">No</label>
+        <legend>Would you attend again next year?</legend>
+            <label for="yes"><input id="yes" type="radio" name="radio" value="yes" class="inline" checked>Yes</label>
+            <label for="no"><input id="no" type="radio" name="radio" value="No" class="inline">No</label>
       </fieldset>
       <fieldset>
         <legend>Your occupation? (check all that apply)</legend>
-          <input type="checkbox" value="Student" name="occupation" class="inline" checked><label>Student</label>
-          <input type="checkbox" value="Working" name="occupation" class="inline"><label>Working</label>
+          <input type="checkbox" value="Student" name="occupation" class="inline" checked><label class="inline">Student</label>
+          <input type="checkbox" value="Working" name="occupation" class="inline"><label class="inline">Working</label>
       </fieldset>
       <fieldset>
-        <label>Any comment or suggestions?
-          <textarea placeholder="Enter you comment here."></textarea>
+        <label for="comment">Any comment or suggestion?
+          <textarea id="comment" placeholder="Enter you comment here." rows="6" cols="30"></textarea>
         </label>
       </fieldset>
       <input type="submit" value="Submit">
