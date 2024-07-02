@@ -1,1 +1,5 @@
-body{background-color:#1a2081;font-family: Ggsans, sans-serif;font-size: 16px;font-weight:400;}
+body{width:100%;height:100vh;margin:0;background-color:#1a2081;font-family: Ggsans, sans-serif;font-size: 16px;font-weight:400;background: linear-gradient(hsl(237, 70%, 20%),hsl(236.5, 66.5%, 30.4%), hsl(240, 56%, 42%));}
+
+h1, p{text-align: center;margin:0.5em auto 20px;}
+
+form{width:70vw;max-width:500px;min-width:300px;margin:0 auto;padding-bottom:2em;}
