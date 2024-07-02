@@ -4,12 +4,20 @@
     
   </head>
   <body>
-    <h1>SURVEY FORM</h1>
+    <h1 id="title">SURVEY FORM</h1>
     <p id="description">Help us improve our platform.</p>
     <form id="survey-form">
+      <fieldset>
         <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="NAME" required></label>
+      </fieldset>
+      <fieldset>
         <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="EMAIL" required></label>
-        <label for="number" id="number-label">Age: <input id="number" type="number" min="7" max="120" placeholder="AGE" required></label>
+      </fieldset>
+      <fieldset>
+        <label for="number" id="number-label">Age: <input id="number" type="number" min="7" max="120" placeholder="AGE" required>
+        </label>
+      </fieldset>
+      <fieldset>
         <label for="dropdown">
             Gender:
             <select id="dropdown">
@@ -17,10 +25,12 @@
                 <option>Female</option>
             </select>
         </label>
+      </fieldset>
         <legend>Gender: 
             <label><input type="radio" name="radio" checked></label>
             <label><input type="radio" name="radio"></label>
         </legend>
+        <
     </form>
   </body>
 </html>
