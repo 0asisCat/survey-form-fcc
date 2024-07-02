@@ -6,7 +6,7 @@ h1, p{text-align: center;margin:1em auto 20px;}
 
 form{width:70vw;max-width:500px;min-width:300px;margin:0 auto;}
 
-.container{display: block;margin:auto;background-color:#161CBB;border-radius:30px;padding-bottom:2em;}
+.container{display: block;margin:auto;background-color:#161CBB;border-radius:30px;padding-bottom:2em;box-shadow:0 0 20px 0 black;}
 
 fieldset{border:none;padding:0.5rem 0;margin:2em;}
 
@@ -14,7 +14,7 @@ fieldset:first-of-type{padding-top:2em;}
 
 label{display:block;margin: 0;}
 
-input:hover{box-shadow: 0 0 10px 0 #abb1f5;}
+input:hover{box-shadow:0 0 10px 0 #abb1f5;}
 
 input, textarea, select{margin:0;width:100%;min-height:2em;background-color:#070733;border:#070733;}
 
