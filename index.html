@@ -9,26 +9,27 @@
     <h1 id="title">Convention Survey Form</h1>
     <p id="description">How was our service?</p>
     <form id="survey-form">
+      <div class="container">
       <fieldset>
-        <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="NAME" required></label>
+        <label for="name" id="name-label">Name <input id="name" type="text" placeholder="NAME" required></label>
       </fieldset>
       <fieldset>
-        <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="EMAIL" required></label>
+        <label for="email" id="email-label">Email <input id="email" type="email" placeholder="EMAIL" required></label>
       </fieldset>
       <fieldset>
-        <label for="number" id="number-label">Age: <input id="number" type="number" min="16" max="120" placeholder="AGE" required>
+        <label for="number" id="number-label">Age <input id="number" type="number" min="16" max="120" placeholder="AGE" required>
         </label>
       </fieldset>
       <fieldset>
-        <label for="dropdown">Choose:
+        <label for="dropdown">Are you one of the staffs?
             <select id="dropdown">
-                <option>Outsider</option>
-                <option>Insider</option>
+                <option>STAFF</option>
+                <option>ATTENDEES</option>
             </select>
         </label>
       </fieldset>
       <fieldset>
-        <legend>Would you attend again next year?</legend>
+        <legend>Will you attend again next year?</legend>
             <label for="yes"><input id="yes" type="radio" name="radio" value="yes" class="inline" checked>Yes</label>
             <label for="no"><input id="no" type="radio" name="radio" value="No" class="inline">No</label>
       </fieldset>
@@ -43,6 +44,7 @@
         </label>
       </fieldset>
       <input type="submit" value="Submit">
+      </div>
     </form>
   </body>
 </html>
